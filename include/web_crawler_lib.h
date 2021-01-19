@@ -1,8 +1,10 @@
-//
-// Created by elisey on 19.01.2021.
+// Copyright 2020 Siver Elisey sivereliseu7@gmail.com
+// Created by elisey on 15.01.2021.
 //
 
-#ifndef WEB_CRAWLER_WEB_CRAWLER_LIB_H
-#define WEB_CRAWLER_WEB_CRAWLER_LIB_H
+#pragma once
 
-#endif  // WEB_CRAWLER_WEB_CRAWLER_LIB_H
+#include <web_crawler_lib/definitions.hpp>
+#include <web_crawler_lib/parser.hpp>
+#include <web_crawler_lib/url_reader.hpp>
+#include <web_crawler_lib/web_crawler.hpp>
