@@ -40,7 +40,8 @@ file(GLOB_RECURSE PROJECT_LIB_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/sources/lib/*
 add_library(${PROJECT_NAME}-lib STATIC ${PROJECT_LIB_SOURCES})
 
 file(GLOB_RECURSE PROJECT_APP_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/sources/app/*.cpp")
-add_executable(${PROJECT_NAME}-app ${PROJECT_APP_SOURCES})
+
+add_executable(${PROJECT_NAME}-app ${CMAKE_CURRENT_SOURCE_DIR}/sources/app/main.cpp)
 
 target_include_directories(${PROJECT_NAME}-lib PUBLIC
         "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>"

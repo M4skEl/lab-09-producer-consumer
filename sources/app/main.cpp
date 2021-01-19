@@ -5,7 +5,7 @@
 #include <cstddef>
 #include <iostream>
 #include <string>
-#include <web_crawler_lib.hpp>
+#include <web_crawler_lib.h>
 
 namespace web_crawler_app {
 namespace program_options = ::boost::program_options;

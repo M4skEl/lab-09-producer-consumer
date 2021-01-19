@@ -7,8 +7,8 @@
 #include <iostream>
 #include <set>
 #include <string>
-#include <web_crawler_lib/parser.hpp>
-#include <web_crawler_lib/url_reader.hpp>
+#include <web_crawler_lib/parser.h>
+#include <web_crawler_lib/url_reader.h>
 
 namespace web_crawler_lib {
 

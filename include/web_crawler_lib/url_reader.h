@@ -7,7 +7,7 @@
 #include <optional>
 #include <string>
 #include <utility>
-#include <web_crawler_lib/definitions.hpp>
+#include <web_crawler_lib/definitions.h>
 
 namespace web_crawler_lib {
 
